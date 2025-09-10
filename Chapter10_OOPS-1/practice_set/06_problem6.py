@@ -5,8 +5,8 @@ class Train:
     def __init__(slf, trainNo):
         slf.trainNo = trainNo
 
-    def book(harry, fro, to):
-        print(f"Ticket is booked in train no: {harry.trainNo} from {fro} to {to}") 
+    def book(John, fro, to):
+        print(f"Ticket is booked in train no: {John.trainNo} from {fro} to {to}") 
 
     def getStatus(self):
         print(f"Train no: {self.trainNo} is running on time") 

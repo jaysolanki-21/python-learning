@@ -10,9 +10,9 @@ class Employee:
         print("Good morning")
 
 
-harry = Employee()
-# harry.language = "JavaScript" # This is an instance attribute
-harry.greet()
-harry.getInfo() 
-# Employee.getInfo(harry)
+John = Employee()
+# John.language = "JavaScript" # This is an instance attribute
+John.greet()
+John.getInfo() 
+# Employee.getInfo(John)
  
